@@ -159,3 +159,21 @@ Errors are handled centrally using middleware.
     Business logic is handled in the service layer
 
     Controllers remain thin and readable
+
+
+**Insert This Sample Data Into Users Table:**
+
+INSERT INTO Users (name, email, createdAt, updatedAt)
+VALUES
+('Lokesh', 'lokesh@test.com', NOW(), NOW()),
+('Rahul', 'rahul@test.com', NOW(), NOW()),
+('Anita', 'anita@test.com', NOW(), NOW());
+
+
+**Insert This Sample Data Into Users Meetings:**
+
+INSERT INTO Meetings (userId, title, startTime, endTime, createdAt, updatedAt)
+VALUES
+(1, 'Interview', '2026-02-10 10:00:00', '2026-02-10 10:30:00', NOW(), NOW()),
+(1, 'Team Sync', '2026-02-10 10:30:00', '2026-02-10 11:00:00', NOW(), NOW()),
+(2, 'Client Call', '2026-02-11 09:00:00', '2026-02-11 09:30:00', NOW(), NOW());
