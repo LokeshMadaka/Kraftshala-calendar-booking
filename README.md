@@ -35,6 +35,9 @@
 
     4 -> MySQL Database
 
+### Video Link
+
+https://drive.google.com/file/d/1S8_tzQJvfBKNiqDkjYvGJcJYs2SrODfW/view?usp=sharing
 
 ## How to Run the Project Locally
 
